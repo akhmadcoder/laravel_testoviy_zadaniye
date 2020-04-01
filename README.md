@@ -4,6 +4,16 @@ git clone https://github.com/akhmadcoder/laravel_testoviy_zadaniye.git
 2. composer install  &  composer update
 3. sozdat baza danniy i podkluchi proekt
 4. vseh email budet otpravleni na mailtrap, sozdat akkaunt na https://mailtrap.io/ i vstavte vashu  MAIL_USERNAME i MAIL_PASSWORD na .env  dlya poluchit email
+
+kodi na .env dlya email 
+------------
+MAIL_DRIVER=smtp
+MAIL_HOST=smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=36ce30c3ce0494
+MAIL_PASSWORD=fd699fc9f56e47
+MAIL_ENCRYPTION=null
+
 5. sdelu  "php artisan migrate"  dlya migratsiyu vseh tablitsu
 6. sdelu "php artisan db:seed" dlya seed role i manager login parol
 7. manager login: manager@gmail.com  parol: admin
