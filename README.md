@@ -1,3 +1,4 @@
+Инструкция по установке и настройке проекта
 1.  klon repository:
 git clone https://github.com/akhmadcoder/laravel_testoviy_zadaniye.git
 
